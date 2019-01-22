@@ -115,6 +115,7 @@ apoc.es.query()該方法透過YIELD內建函數回傳變數需固定名稱為val
 
 #### 2.3. 透過 apoc.create.relationship() 建立關聯
 因希望動態取得欄位 rule 資料並建立欄位 src 與 dst 之間的關聯，因此使用 apoc.create.relationship()，相關參數詳見官方文件，以Neo4j Browser呈現結果如下圖。
+
 ![Use_Neo4j_APOC_Plugin_To_Query_Elasticsearch_Data](../pictures/Use_Neo4j_APOC_Plugin_To_Query_Elasticsearch_Data.png)
 
 ### 問題與討論
